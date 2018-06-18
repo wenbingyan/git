@@ -131,6 +131,11 @@ git log --graph --online 简化图标
 git remote rm 名(origin)
 ```
 
+## 拉取最新的代码
+```
+git pull origin master
+```
+
  > .gitignore 忽略提交内容的隐藏文件
 
  > git 不会上传空文件夹 添加.gitkeep保存空文件夹
