@@ -33,6 +33,13 @@ git init 告诉git哪个文件夹被git所管理
 git status 查看git状态
 ```
 
+## 关联&解除仓库
+```
+git remote add origin url 关联仓库
+git remote remove origin 解除仓库
+```
+
+
 ## 删除暂存区
 ```
 git rm --cached 文件名
