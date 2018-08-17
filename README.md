@@ -118,6 +118,35 @@ git stashpop
 git merge 分支名
 ```
 
+## 日志
+```
+git log 日志
+git log --graph 日志图标
+git log --graph --online 简化图标
+```
+
+## 关联远程仓库／推到github
+- 本地新建项目
+- git init
+- 添加README.MD 和 .gitignore
+- 提交到版本库
+- git remote add origin github地址
+- git push -u origin master   (第一次push加 -u ，之后自动默认提交到该分支里)
+
+## 删除关联
+```
+git remote rm 名(origin)
+```
+
+## 拉取最新的代码
+```
+git pull origin master
+```
+
+ > .gitignore 忽略提交内容的隐藏文件
+
+ > git 不会上传空文件夹 添加.gitkeep保存空文件夹
+
 ## linux命令
 - pwd print working directory
 - rm -rf 文件夹 删除文件
