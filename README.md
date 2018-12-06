@@ -117,6 +117,7 @@ git stashpop
 ```
 git merge 分支名
 ```
+> 切换到想要合并的分支，merge 目标分支
 
 ## 日志
 ```
