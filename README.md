@@ -71,7 +71,7 @@ git reset HEAD 文件名 回到上一次的缓存区
 ```
 git reset --hard 版本号
 
-// 然后执行 git push origin cart-dev -f
+// 然后执行 git push origin 分支名 -f
 
 git reflog 查看所有版本
 ```
