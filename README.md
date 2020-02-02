@@ -139,7 +139,9 @@ git log --graph --online 简化图标
 
 ## 删除关联
 ```
-git remote rm 名(origin)
+git remote -v //查看git对应的远程仓库地址
+git remote rm origin //删除关联对应的远程仓库地址
+git remote -v //查看是否删除成功，如果没有任何返回结果，表示OK
 ```
 
 ## 拉取最新的代码
